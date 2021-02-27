@@ -1,0 +1,174 @@
+[
+    {
+        "img": "img/products/img1.png",
+        "rating": "3.4",
+        "price": "$ 399",
+        "name": "Apple Watch Series 4 GPS",
+        "description": "Redesigned from scratch and completely revised.",
+        "category": "Appliances",
+        "link": "https://www.google.am/" 
+    },
+    {
+        "img": "img/products/img2.png",
+        "rating": "5.0",
+        "price": "$ 199",
+        "name": "JBL Speaker",
+        "description": "Redesigned from scratch and completely revised.",
+        "category": "Audio",
+        "link": "https://www.google.am/"
+    },
+    {
+        "img": "img/products/img3.png",
+        "rating": "4.4",
+        "price": "$ 899",
+        "name": "Apple iPhone X 128GB",
+        "description": "Redesigned from scratch and completely revised.",
+        "category": "Cell Phones",
+        "link": "https://www.google.am/"
+    },
+    {
+        "img": "img/products/img4.png",
+        "rating": "3.4",
+        "price": "$ 459",
+        "name": "Beats Headphones",
+        "description": "Redesigned from scratch and completely revised.",
+        "category": "Audio",
+        "link": "https://www.google.am/" 
+    },
+    {
+        "img": "img/products/img5.png",
+        "rating": "4.5",
+        "price": "$ 3099",
+        "name": "Apple Macbook Pro 512GB",
+        "description": "Redesigned from scratch and completely revised.",
+        "category": "Computers & Tablets",
+        "link": "https://www.google.am/" 
+    },
+    {
+        "img": "img/products/img6.png",
+        "rating": "5.0",
+        "price": "$ 899",
+        "name": "Apple iPad Pro 64GB",
+        "description": "Redesigned from scratch and completely revised.",
+        "category": "Computers & Tablets",
+        "link": "https://www.google.am/" 
+    },
+    {
+        "img": "img/products/img7.png",
+        "rating": "3.3",
+        "price": "$ 399",
+        "name": "Apple Homepod",
+        "description": "Redesigned from scratch and completely revised.",
+        "category": "Audio",
+        "link": "https://www.google.am/"
+    },
+    {
+        "img": "img/products/img8.png",
+        "rating": "5.0",
+        "price": "$ 2499",
+        "name": "JBuds Air Wireless Bluetooth…",
+        "description": "Redesigned from scratch and completely revised.",
+        "category": "Audio",
+        "link": "https://www.google.am/"
+    },
+    {
+        "img": "img/products/img9.png",
+        "rating": "4.4",
+        "price": "$ 99",
+        "name": "Apple Magic Mouse",
+        "description": "Redesigned from scratch and completely revised.",
+        "category": "iPhone Accessories",
+        "link": "https://www.google.am/"
+    },
+    {
+        "img": "img/products/img19.png",
+        "rating": "4.9",
+        "price": "$ 399",
+        "name": "Alisa Homepod",
+        "description": "Redesigned from scratch and completely revised.",
+        "category": "Audio",
+        "link": "https://www.google.am/"
+    },
+    {
+        "img": "img/products/img18.png",
+        "rating": "5.0",
+        "price": "$ 1099",
+        "name": " Xiaomi Mi TV 4S 55",
+        "description": "Redesigned from scratch and completely revised.",
+        "category": "TV & Home Theater",
+        "link": "https://www.google.am/"
+    },
+    {
+        "img": "img/products/img17.png",
+        "rating": "4.6",
+        "price": "$ 550",
+        "name": "Nintendo Switch 32 GB",
+        "description": "Redesigned from scratch and completely revised.",
+        "category": "Computers & Tablets",
+        "link": "https://www.google.am/"
+    },
+    {
+        "img": "img/products/img16.png",
+        "rating": "3.9",
+        "price": "$ 120",
+        "name": "Logitech G unveils the Pro X Superlight",
+        "description": "Redesigned from scratch and completely revised.",
+        "category": "Computers & Tablets",
+        "link": "https://www.google.am/"
+    },
+    {
+        "img": "img/products/img15.png",
+        "rating": "5.0",
+        "price": "$ 699",
+        "name": "GoPro Hero 8 Black",
+        "description": "Redesigned from scratch and completely revised.",
+        "category": "Cameras & Camcorders",
+        "link": "https://www.google.am/"
+    },
+    {
+        "img": "img/products/img14.png",
+        "rating": "4.1",
+        "price": "$ 800",
+        "name": "Xbox Series X And S ",
+        "description": "Redesigned from scratch and completely revised.",
+        "category": "TV & Home Theater",
+        "link": "https://www.google.am/"
+    },
+    {
+        "img": "img/products/img13.png",
+        "rating": "3.4",
+        "price": "$ 650",
+        "name": "Xiaomi Mi 11 Pro",
+        "description": "Redesigned from scratch and completely revised.",
+        "category": "Cell Phones",
+        "link": "https://www.google.am/"
+    },
+    {
+        "img": "img/products/img12.png",
+        "rating": "4.5",
+        "price": "$ 1299",
+        "name": "Canon EOS 5D Mark IV",
+        "description": "Redesigned from scratch and completely revised.",
+        "category": "Cameras & Camcorders",
+        "link": "https://www.google.am/"
+    },
+    {
+        "img": "img/products/img11.png",
+        "rating": "4.3",
+        "price": "$ 300",
+        "name": "Apple AirPods Pro",
+        "description": "Redesigned from scratch and completely revised.",
+        "category": "Audio",
+        "link": "https://www.google.am/"
+    },
+    {
+        "img": "img/products/img10.png",
+        "rating": "4.7",
+        "price": "$ 600",
+        "name": "Playstation 4 Pro 1Tr",
+        "description": "Redesigned from scratch and completely revised.",
+        "category": "TV & Home Theater",
+        "link": "https://www.google.am/"
+    }
+
+]
