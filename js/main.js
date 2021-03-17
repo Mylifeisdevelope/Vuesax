@@ -3,21 +3,17 @@ const ElemAll = document.querySelectorAll(".menu__arrow")
 const subList = document.querySelectorAll(".sub__list")
 const dropMenu = document.querySelectorAll(".drop__down__link ");
 
-dropMenu.forEach((elem, index) => {
+dropMenu.forEach((elem) => {
     elem.addEventListener("click", (e) => {
         e.preventDefault()
         const parentElement = e.target.closest(".list__item")
         if (parentElement) {
-            if (index && !parentElement.children[1].classList.contains("open")) {
-                parentElement.children[1].classList.add("open")
-                elem.children[1].classList.add("menu__arrow__active")
-            } else if (index && parentElement.children[1].classList.contains("open")) {
-                parentElement.children[1].classList.remove("open")
-                elem.children[1].classList.remove("menu__arrow__active")
-            } else if (!index && parentElement.children[1].classList.contains("open")) {
+            if (!parentElement.children[1].classList.contains("open")) {
                 removeElem(subList, "open")
                 removeElem(ElemAll, "menu__arrow__active")
             }
+            parentElement.children[1].classList.toggle("open")
+            elem.children[1].classList.toggle("menu__arrow__active")
         }
     })
 })
@@ -31,35 +27,6 @@ const removeElem = (element, removeClass) => {
 }
 
 
-
-
-
-
-
-
-
-
-
-// dropMenu.forEach((elem, index) => {
-//     elem.addEventListener("click", (e) => {
-//         e.preventDefault()
-//         const parentElement = e.target.closest(".list__item")
-//         const arrowElement = e.target.closest(".menu__arrow")
-//         if (parentElement) {
-//             if (!parentElement.children[1].classList.contains("open") && !index) {
-//                 removeElem(subList, "open")
-//                 removeElem(ElemAll, "menu__arrow__active")
-//                 console.log(index);
-//             } else if (parentElement.children[1].classList.contains("open") ) {
-//                 parentElement.children[1].classList.remove("open")
-//                 elem.children[1].classList.remove("menu__arrow__active")
-//             }
-//             parentElement.children[1].classList.add("open")
-//             elem.children[1].classList.add("menu__arrow__active")
-//         }
-
-//     })
-// });
 //select setings
 const selectList = document.querySelector(".input__list")
 const inputSubList = document.querySelector(".input__sub__list")
@@ -134,13 +101,3 @@ popUpCLose.addEventListener("click", () => {
 
 
 
-
-  //  if (parentElement) {
-        // if (parentElement.children[1].classList.contains("open")) {
-        //     parentElement.children[1].classList.remove("open")
-        //     elem.children[1].classList.remove("menu__arrow__active")
-        // } else {
-        //     parentElement.children[1].classList.add("open")
-        //     elem.children[1].classList.add("menu__arrow__active")
-        // }
-        // }

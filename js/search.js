@@ -16,7 +16,6 @@ const searchFunc = () => {
                 if (value !== '') {
                     document.querySelectorAll(".search__element").forEach((elem) => {
                         const elemToUpperCase = elem.textContent.toUpperCase()
-                        console.log(elem);
                         if (elemToUpperCase.search(toUpperCaseValue) === -1) {
                             elem.classList.add("search__element__hide")
                             elem.classList.remove("search__element__show")
